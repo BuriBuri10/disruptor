@@ -255,7 +255,7 @@ def run_milp_optimization(flights_df, aircraft_df, scenario, objective):
 
 # --- UI Layout ---
 
-st.title("United Airlines ✈ Proactive Disruption Management")
+st.title("United Airlines Proactive Disruption Management ✈")
 st.markdown("A dashboard to visualize and manage operational disruptions using a live **Mixed-Integer Linear Programming (MILP)** model.")
 
 if 'original_flights' not in st.session_state:
